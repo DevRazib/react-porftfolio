@@ -4,7 +4,7 @@ import mywork_data from '../../assets/mywork_data';
 import arrow_icon from '../../assets/arrow_icon.svg'
 const MyWork = () => {
   return (
-    <div className='mywork'>
+    <div id='portfolio' className='mywork'>
       <div className="mywork-title">
         <h2>My Latest Work </h2>
         <img src={theme_pattern} alt="theme_pattern" />
