@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div id='about' className='about'>
       <div className="about-title">
-        <h1>About Me</h1>
+        <h2>About Me</h2>
         <img src={theme_pattern} alt="theme_pattern" />
       </div>
       <div className="about-sections">
@@ -37,17 +37,17 @@ const About = () => {
 
           <div className="about-achievements">
           <div className="about-achievement">
-            <h1>10+</h1>
+            <h2>10+</h2>
             <p>YEARS OF EXPERIENCE</p>
           </div>
           <hr />
           <div className="about-achievement">
-            <h1>90+</h1>
+            <h2>90+</h2>
             <p>PROJECTS COMPLETED</p>
           </div>
           <hr />
           <div className="about-achievement">
-            <h1>15+</h1>
+            <h2>15+</h2>
             <p>HAPPY CLIENTS</p>
           </div>
           <hr />
