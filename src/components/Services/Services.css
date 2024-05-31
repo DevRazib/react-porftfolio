@@ -102,3 +102,9 @@
     gap: 30px;
   }
 }
+@media(max-width:500px){
+  .services-container{
+   grid-template-columns: auto;
+   gap:20px;
+  }
+}
